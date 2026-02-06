@@ -60,3 +60,23 @@ ai-mock-interview-platform/
 │ └── package.json
 │
 └── README.md
+
+
+---
+
+## ⚙️ Prerequisites
+
+- Node.js **v14+**
+- npm or yarn
+- Groq API Key
+- MongoDB (local or cloud)
+
+---
+
+## 🔧 Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone <repo-url>
+cd ai-mock-interview-platform
+
