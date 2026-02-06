@@ -1,12 +1,42 @@
-# React + Vite
+# AI-Powered Mock Interview Platform 🎤🤖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered mock interview platform that simulates real interview scenarios using resume analysis and job descriptions. The system dynamically generates interview questions, supports voice and text-based answers, and provides a complete interview transcript for review.
 
-Currently, two official plugins are available:
+Built with **React** on the frontend, **Node.js + Express** on the backend, and powered by the **Groq API** for real-time AI question generation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📄 PDF resume upload & parsing
+- 🧠 AI-generated interview questions based on resume + job description
+- 🔁 Context-aware follow-up questions
+- 🎙️ Voice-based interaction (Speech-to-Text & Text-to-Speech)
+- 📝 Interview transcript generation
+- ⚡ Real-time interview flow
+- 🔐 Secure backend with JWT authentication
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React
+- Axios
+- Web Speech API (for voice interaction)
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Multer (file uploads)
+- pdf-parse (resume parsing)
+- JWT (authentication)
+
+### AI
+- Groq API (LLM-based question generation)
+
+---
+
+## 📂 Project Structure
+
