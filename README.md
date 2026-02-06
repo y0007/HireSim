@@ -39,4 +39,24 @@ Built with **React** on the frontend, **Node.js + Express** on the backend, and 
 ---
 
 ## 📂 Project Structure
-
+ai-mock-interview-platform/
+│
+├── backend/
+│ ├── controllers/
+│ ├── routes/
+│ ├── models/
+│ ├── middleware/
+│ ├── utils/
+│ ├── uploads/
+│ ├── server.js
+│ └── .env
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── services/
+│ │ └── App.js
+│ └── package.json
+│
+└── README.md
