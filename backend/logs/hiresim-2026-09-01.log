@@ -1,0 +1,4 @@
+{"ts":"2026-09-01T08:39:02.138Z","level":"INFO","event":"vector_store_ready","message":"Question bank loaded"}
+{"ts":"2026-09-01T08:45:07.265Z","level":"INFO","event":"llm_call","model":"groq/compound-mini","latencyMs":2300,"success":true,"endpoint":"chat"}
+{"ts":"2026-09-01T08:48:58.083Z","level":"INFO","event":"llm_call","model":"groq/compound-mini","latencyMs":4423,"success":true,"endpoint":"chat"}
+{"ts":"2026-09-01T09:32:09.398Z","level":"INFO","event":"vector_store_ready","message":"Question bank loaded"}
